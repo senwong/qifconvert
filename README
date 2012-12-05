@@ -1,0 +1,5 @@
+Small tool to convert QIF files to CSV files.
+
+Usecase: getting data from Homebank (homebank.free.fr) to OutBank (www.outbank.de). Homebank only has QIF export, while OutBank only supports various CSV file formats. This tool converts Homebanks QIF to a CSV that can be imported into OutBank. Right now the generated CSV is in Hibiscus1 format, though it's quite easy to add support for more formats. Keep in mind that the conversion is based on the QIF files exported from Homebank. For other QIF exports there might be data omitted during the mapping.
+
+After running 'mvn clean install' just execute the generated 'target/qifconvert/bin/qifconvert', which asks for a path to a QIF file. CSV files will be generated for each account found in the QIF file.
