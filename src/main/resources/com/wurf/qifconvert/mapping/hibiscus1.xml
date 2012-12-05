@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mappings xmlns="http://dozer.sourceforge.net"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://dozer.sourceforge.net
+          http://dozer.sourceforge.net/schema/beanmapping.xsd">
+
+    <configuration>
+        <stop-on-errors>true</stop-on-errors>
+        <date-format>dd.MM.yyyy</date-format>
+        <wildcard>true</wildcard>
+    </configuration>
+
+    <mapping>
+        <class-a>com.wurf.qifconvert.dto.qif.TransactionDto</class-a>
+        <class-b>com.wurf.qifconvert.dto.hibiscus1.Hibiscus1</class-b>
+        <field>
+            <a>date</a>
+            <b>valutaDate</b>
+        </field>
+
+        <field>
+            <a>date</a>
+            <b>bookingDate</b>
+        </field>
+        <field>
+            <a>memo</a>
+            <b>usage1</b>
+        </field>
+    </mapping>
+
+</mappings>

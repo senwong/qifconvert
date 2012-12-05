@@ -1,0 +1,151 @@
+<com.wurf.qifconvert.dto.qif.QifDto>
+    <accounts class="linked-list">
+        <com.wurf.qifconvert.dto.qif.AccountDto>
+            <name>CashKonto</name>
+            <transactions>
+                <com.wurf.qifconvert.dto.qif.TransactionDto>
+                    <date>2009-11-09 23:00:00.0 UTC</date>
+                    <amount>10,00</amount>
+                    <payee>Ich</payee>
+                    <memo>UWE FRICKE UMBUCHUNG</memo>
+                    <category>Einkommen:Umbuchung</category>
+                </com.wurf.qifconvert.dto.qif.TransactionDto>
+                <com.wurf.qifconvert.dto.qif.TransactionDto>
+                    <date>2009-11-09 23:00:00.0 UTC</date>
+                    <amount>0,18</amount>
+                    <payee>Ich</payee>
+                    <memo>PAYPAL-GUTSCHRIFT ZUR KONTOBESTAETIGUNG</memo>
+                    <category>Sonstiges</category>
+                </com.wurf.qifconvert.dto.qif.TransactionDto>
+                <com.wurf.qifconvert.dto.qif.TransactionDto>
+                    <date>2009-11-10 23:00:00.0 UTC</date>
+                    <amount>-8,44</amount>
+                    <payee>Ebay</payee>
+                    <memo>7261A8119A6</memo>
+                    <category>Sonstiges:Gebühren</category>
+                </com.wurf.qifconvert.dto.qif.TransactionDto>
+            </transactions>
+        </com.wurf.qifconvert.dto.qif.AccountDto>
+        <com.wurf.qifconvert.dto.qif.AccountDto>
+            <name>Mastercard</name>
+            <transactions>
+                <com.wurf.qifconvert.dto.qif.TransactionDto>
+                    <date>2007-08-02 22:00:00.0 UTC</date>
+                    <amount>-50,00</amount>
+                    <payee>Diverse</payee>
+                    <memo></memo>
+                    <category>Privat:Geschenke</category>
+                </com.wurf.qifconvert.dto.qif.TransactionDto>
+                <com.wurf.qifconvert.dto.qif.TransactionDto>
+                    <date>2007-09-13 22:00:00.0 UTC</date>
+                    <amount>35,00</amount>
+                    <payee>Ich</payee>
+                    <memo>BANK MC SERVICES</memo>
+                    <category>[Girokonto]</category>
+                </com.wurf.qifconvert.dto.qif.TransactionDto>
+            </transactions>
+        </com.wurf.qifconvert.dto.qif.AccountDto>
+        <com.wurf.qifconvert.dto.qif.AccountDto>
+            <name>Mietkaution</name>
+            <transactions>
+                <com.wurf.qifconvert.dto.qif.TransactionDto>
+                    <date>2008-03-13 23:00:00.0 UTC</date>
+                    <amount>1770,00</amount>
+                    <payee>Ich</payee>
+                    <memo>BAUSPARKAssE</memo>
+                    <category>[Girokonto]</category>
+                </com.wurf.qifconvert.dto.qif.TransactionDto>
+            </transactions>
+        </com.wurf.qifconvert.dto.qif.AccountDto>
+        <com.wurf.qifconvert.dto.qif.AccountDto>
+            <name>Sparbuch</name>
+            <transactions>
+                <com.wurf.qifconvert.dto.qif.TransactionDto>
+                    <date>2007-10-03 22:00:00.0 UTC</date>
+                    <amount>12,00</amount>
+                    <payee>Ich</payee>
+                    <memo>KARTE 6 UMBUCHG ONLINE</memo>
+                    <category>[Girokonto]</category>
+                </com.wurf.qifconvert.dto.qif.TransactionDto>
+                <com.wurf.qifconvert.dto.qif.TransactionDto>
+                    <date>2008-02-17 23:00:00.0 UTC</date>
+                    <amount>-70,00</amount>
+                    <payee>Ich</payee>
+                    <memo>UMBUCHUNG FG + MIETKAUTION VON</memo>
+                    <category>[Girokonto]</category>
+                </com.wurf.qifconvert.dto.qif.TransactionDto>
+                <com.wurf.qifconvert.dto.qif.TransactionDto>
+                    <date>2009-11-29 23:00:00.0 UTC</date>
+                    <amount>-200,00</amount>
+                    <payee>Ich</payee>
+                    <memo>Auflösung Sparbuch</memo>
+                    <category>[Citibank Girokonto]</category>
+                </com.wurf.qifconvert.dto.qif.TransactionDto>
+            </transactions>
+        </com.wurf.qifconvert.dto.qif.AccountDto>
+        <com.wurf.qifconvert.dto.qif.AccountDto>
+            <name>Festgeld</name>
+            <transactions>
+                <com.wurf.qifconvert.dto.qif.TransactionDto>
+                    <date>2008-02-17 23:00:00.0 UTC</date>
+                    <amount>100,00</amount>
+                    <payee>Ich</payee>
+                    <memo>KARTE 0 UMBUCHG CITIBANK B KURFUERSTEN</memo>
+                    <category>[Girokonto]</category>
+                </com.wurf.qifconvert.dto.qif.TransactionDto>
+                <com.wurf.qifconvert.dto.qif.TransactionDto>
+                    <date>2008-06-29 22:00:00.0 UTC</date>
+                    <amount>-100,00</amount>
+                    <payee>Ich</payee>
+                    <memo>GELDANLAGE FG KONTOAUSBUCHUNG</memo>
+                    <category>[Girokonto]</category>
+                </com.wurf.qifconvert.dto.qif.TransactionDto>
+                <com.wurf.qifconvert.dto.qif.TransactionDto>
+                    <date>2011-03-02 23:00:00.0 UTC</date>
+                    <amount>100,00</amount>
+                    <payee>Ich</payee>
+                    <memo></memo>
+                    <category>Einkommen:Umbuchung</category>
+                </com.wurf.qifconvert.dto.qif.TransactionDto>
+            </transactions>
+        </com.wurf.qifconvert.dto.qif.AccountDto>
+        <com.wurf.qifconvert.dto.qif.AccountDto>
+            <name>Girokonto</name>
+            <transactions>
+                <com.wurf.qifconvert.dto.qif.TransactionDto>
+                    <date>2007-09-02 22:00:00.0 UTC</date>
+                    <amount>-60,00</amount>
+                    <payee>Victoria</payee>
+                    <memo>VICTORIA-VERSICHERUNG</memo>
+                    <category>Versicherung:Rente</category>
+                </com.wurf.qifconvert.dto.qif.TransactionDto>
+                <com.wurf.qifconvert.dto.qif.TransactionDto>
+                    <date>2007-09-02 22:00:00.0 UTC</date>
+                    <amount>-50,00</amount>
+                    <payee>Allianz</payee>
+                    <memo>ALLIANZ VERSICHERUNG ABBUCHUNG ERWEITERTE HAUSHALTVERSICHE</memo>
+                    <category>Versicherung:Hausrat</category>
+                </com.wurf.qifconvert.dto.qif.TransactionDto>
+            </transactions>
+        </com.wurf.qifconvert.dto.qif.AccountDto>
+        <com.wurf.qifconvert.dto.qif.AccountDto>
+            <name>Visacard</name>
+            <transactions>
+                <com.wurf.qifconvert.dto.qif.TransactionDto>
+                    <date>2009-11-25 23:00:00.0 UTC</date>
+                    <amount>100,00</amount>
+                    <payee>Ich</payee>
+                    <memo>Einzahlung</memo>
+                    <category>Einkommen:Umbuchung</category>
+                </com.wurf.qifconvert.dto.qif.TransactionDto>
+                <com.wurf.qifconvert.dto.qif.TransactionDto>
+                    <date>2009-12-16 23:00:00.0 UTC</date>
+                    <amount>-29,90</amount>
+                    <payee>Toshiba</payee>
+                    <memo>WWW.TOSHIBAWIN7UPGRADE.COVERSMOLD </memo>
+                    <category>Technik</category>
+                </com.wurf.qifconvert.dto.qif.TransactionDto>
+            </transactions>
+        </com.wurf.qifconvert.dto.qif.AccountDto>
+    </accounts>
+</com.wurf.qifconvert.dto.qif.QifDto>

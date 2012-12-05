@@ -1,0 +1,179 @@
+<list>
+    <com.wurf.qifconvert.dto.Csv>
+        <accountName>CashKonto</accountName>
+        <header>Nummer;Buchungsdatum;Valutadatum;Waehrung;Betrag;Empfaengername;Bankleitzahl;Kontonummer;Referenz;Textschluessel;Kommentar;Kategorie;Verwendungszweck_1;Verwendungszweck_2;Verwendungszweck_3;Verwendungszweck_4;Verwendungszweck_5;Verwendungszweck_6;Verwendungszweck_7;Verwendungszweck_8;Verwendungszweck_9;Verwendungszweck_10;Verwendungszweck_11;Verwendungszweck_12;Verwendungszweck_13;Verwendungszweck_14
+        </header>
+        <transactions class="linked-list">
+            <com.wurf.qifconvert.dto.hibiscus1.Hibiscus1>
+                <bookingDate>10.11.2009</bookingDate>
+                <valutaDate>10.11.2009</valutaDate>
+                <amount>10,00</amount>
+                <payee>Ich</payee>
+                <category>Einkommen:Umbuchung</category>
+                <usage1>UWE FRICKE UMBUCHUNG</usage1>
+            </com.wurf.qifconvert.dto.hibiscus1.Hibiscus1>
+            <com.wurf.qifconvert.dto.hibiscus1.Hibiscus1>
+                <bookingDate>10.11.2009</bookingDate>
+                <valutaDate>10.11.2009</valutaDate>
+                <amount>0,18</amount>
+                <payee>Ich</payee>
+                <category>Sonstiges</category>
+                <usage1>PAYPAL-GUTSCHRIFT ZUR KONTOBESTAETIGUNG</usage1>
+            </com.wurf.qifconvert.dto.hibiscus1.Hibiscus1>
+            <com.wurf.qifconvert.dto.hibiscus1.Hibiscus1>
+                <bookingDate>11.11.2009</bookingDate>
+                <valutaDate>11.11.2009</valutaDate>
+                <amount>-8,44</amount>
+                <payee>Ebay</payee>
+                <category>Sonstiges:Gebühren</category>
+                <usage1>7261A8119A6</usage1>
+            </com.wurf.qifconvert.dto.hibiscus1.Hibiscus1>
+        </transactions>
+    </com.wurf.qifconvert.dto.Csv>
+    <com.wurf.qifconvert.dto.Csv>
+        <accountName>Mastercard</accountName>
+        <header>Nummer;Buchungsdatum;Valutadatum;Waehrung;Betrag;Empfaengername;Bankleitzahl;Kontonummer;Referenz;Textschluessel;Kommentar;Kategorie;Verwendungszweck_1;Verwendungszweck_2;Verwendungszweck_3;Verwendungszweck_4;Verwendungszweck_5;Verwendungszweck_6;Verwendungszweck_7;Verwendungszweck_8;Verwendungszweck_9;Verwendungszweck_10;Verwendungszweck_11;Verwendungszweck_12;Verwendungszweck_13;Verwendungszweck_14
+        </header>
+        <transactions class="linked-list">
+            <com.wurf.qifconvert.dto.hibiscus1.Hibiscus1>
+                <bookingDate>03.08.2007</bookingDate>
+                <valutaDate>03.08.2007</valutaDate>
+                <amount>-50,00</amount>
+                <payee>Diverse</payee>
+                <category>Privat:Geschenke</category>
+                <usage1></usage1>
+            </com.wurf.qifconvert.dto.hibiscus1.Hibiscus1>
+            <com.wurf.qifconvert.dto.hibiscus1.Hibiscus1>
+                <bookingDate>14.09.2007</bookingDate>
+                <valutaDate>14.09.2007</valutaDate>
+                <amount>35,00</amount>
+                <payee>Ich</payee>
+                <category>[Girokonto]</category>
+                <usage1>BANK MC SERVICES</usage1>
+            </com.wurf.qifconvert.dto.hibiscus1.Hibiscus1>
+        </transactions>
+    </com.wurf.qifconvert.dto.Csv>
+    <com.wurf.qifconvert.dto.Csv>
+        <accountName>Mietkaution</accountName>
+        <header>Nummer;Buchungsdatum;Valutadatum;Waehrung;Betrag;Empfaengername;Bankleitzahl;Kontonummer;Referenz;Textschluessel;Kommentar;Kategorie;Verwendungszweck_1;Verwendungszweck_2;Verwendungszweck_3;Verwendungszweck_4;Verwendungszweck_5;Verwendungszweck_6;Verwendungszweck_7;Verwendungszweck_8;Verwendungszweck_9;Verwendungszweck_10;Verwendungszweck_11;Verwendungszweck_12;Verwendungszweck_13;Verwendungszweck_14
+        </header>
+        <transactions class="linked-list">
+            <com.wurf.qifconvert.dto.hibiscus1.Hibiscus1>
+                <bookingDate>14.03.2008</bookingDate>
+                <valutaDate>14.03.2008</valutaDate>
+                <amount>1770,00</amount>
+                <payee>Ich</payee>
+                <category>[Girokonto]</category>
+                <usage1>BAUSPARKAssE</usage1>
+            </com.wurf.qifconvert.dto.hibiscus1.Hibiscus1>
+        </transactions>
+    </com.wurf.qifconvert.dto.Csv>
+    <com.wurf.qifconvert.dto.Csv>
+        <accountName>Sparbuch</accountName>
+        <header>Nummer;Buchungsdatum;Valutadatum;Waehrung;Betrag;Empfaengername;Bankleitzahl;Kontonummer;Referenz;Textschluessel;Kommentar;Kategorie;Verwendungszweck_1;Verwendungszweck_2;Verwendungszweck_3;Verwendungszweck_4;Verwendungszweck_5;Verwendungszweck_6;Verwendungszweck_7;Verwendungszweck_8;Verwendungszweck_9;Verwendungszweck_10;Verwendungszweck_11;Verwendungszweck_12;Verwendungszweck_13;Verwendungszweck_14
+        </header>
+        <transactions class="linked-list">
+            <com.wurf.qifconvert.dto.hibiscus1.Hibiscus1>
+                <bookingDate>04.10.2007</bookingDate>
+                <valutaDate>04.10.2007</valutaDate>
+                <amount>12,00</amount>
+                <payee>Ich</payee>
+                <category>[Girokonto]</category>
+                <usage1>KARTE 6 UMBUCHG ONLINE</usage1>
+            </com.wurf.qifconvert.dto.hibiscus1.Hibiscus1>
+            <com.wurf.qifconvert.dto.hibiscus1.Hibiscus1>
+                <bookingDate>18.02.2008</bookingDate>
+                <valutaDate>18.02.2008</valutaDate>
+                <amount>-70,00</amount>
+                <payee>Ich</payee>
+                <category>[Girokonto]</category>
+                <usage1>UMBUCHUNG FG + MIETKAUTION VON</usage1>
+            </com.wurf.qifconvert.dto.hibiscus1.Hibiscus1>
+            <com.wurf.qifconvert.dto.hibiscus1.Hibiscus1>
+                <bookingDate>30.11.2009</bookingDate>
+                <valutaDate>30.11.2009</valutaDate>
+                <amount>-200,00</amount>
+                <payee>Ich</payee>
+                <category>[Citibank Girokonto]</category>
+                <usage1>Auflösung Sparbuch</usage1>
+            </com.wurf.qifconvert.dto.hibiscus1.Hibiscus1>
+        </transactions>
+    </com.wurf.qifconvert.dto.Csv>
+    <com.wurf.qifconvert.dto.Csv>
+        <accountName>Festgeld</accountName>
+        <header>Nummer;Buchungsdatum;Valutadatum;Waehrung;Betrag;Empfaengername;Bankleitzahl;Kontonummer;Referenz;Textschluessel;Kommentar;Kategorie;Verwendungszweck_1;Verwendungszweck_2;Verwendungszweck_3;Verwendungszweck_4;Verwendungszweck_5;Verwendungszweck_6;Verwendungszweck_7;Verwendungszweck_8;Verwendungszweck_9;Verwendungszweck_10;Verwendungszweck_11;Verwendungszweck_12;Verwendungszweck_13;Verwendungszweck_14
+        </header>
+        <transactions class="linked-list">
+            <com.wurf.qifconvert.dto.hibiscus1.Hibiscus1>
+                <bookingDate>18.02.2008</bookingDate>
+                <valutaDate>18.02.2008</valutaDate>
+                <amount>100,00</amount>
+                <payee>Ich</payee>
+                <category>[Girokonto]</category>
+                <usage1>KARTE 0 UMBUCHG CITIBANK B KURFUERSTEN</usage1>
+            </com.wurf.qifconvert.dto.hibiscus1.Hibiscus1>
+            <com.wurf.qifconvert.dto.hibiscus1.Hibiscus1>
+                <bookingDate>30.06.2008</bookingDate>
+                <valutaDate>30.06.2008</valutaDate>
+                <amount>-100,00</amount>
+                <payee>Ich</payee>
+                <category>[Girokonto]</category>
+                <usage1>GELDANLAGE FG KONTOAUSBUCHUNG</usage1>
+            </com.wurf.qifconvert.dto.hibiscus1.Hibiscus1>
+            <com.wurf.qifconvert.dto.hibiscus1.Hibiscus1>
+                <bookingDate>03.03.2011</bookingDate>
+                <valutaDate>03.03.2011</valutaDate>
+                <amount>100,00</amount>
+                <payee>Ich</payee>
+                <category>Einkommen:Umbuchung</category>
+                <usage1></usage1>
+            </com.wurf.qifconvert.dto.hibiscus1.Hibiscus1>
+        </transactions>
+    </com.wurf.qifconvert.dto.Csv>
+    <com.wurf.qifconvert.dto.Csv>
+        <accountName>Girokonto</accountName>
+        <header>Nummer;Buchungsdatum;Valutadatum;Waehrung;Betrag;Empfaengername;Bankleitzahl;Kontonummer;Referenz;Textschluessel;Kommentar;Kategorie;Verwendungszweck_1;Verwendungszweck_2;Verwendungszweck_3;Verwendungszweck_4;Verwendungszweck_5;Verwendungszweck_6;Verwendungszweck_7;Verwendungszweck_8;Verwendungszweck_9;Verwendungszweck_10;Verwendungszweck_11;Verwendungszweck_12;Verwendungszweck_13;Verwendungszweck_14
+        </header>
+        <transactions class="linked-list">
+            <com.wurf.qifconvert.dto.hibiscus1.Hibiscus1>
+                <bookingDate>03.09.2007</bookingDate>
+                <valutaDate>03.09.2007</valutaDate>
+                <amount>-60,00</amount>
+                <payee>Victoria</payee>
+                <category>Versicherung:Rente</category>
+                <usage1>VICTORIA-VERSICHERUNG</usage1>
+            </com.wurf.qifconvert.dto.hibiscus1.Hibiscus1>
+            <com.wurf.qifconvert.dto.hibiscus1.Hibiscus1>
+                <bookingDate>03.09.2007</bookingDate>
+                <valutaDate>03.09.2007</valutaDate>
+                <amount>-50,00</amount>
+                <payee>Allianz</payee>
+                <category>Versicherung:Hausrat</category>
+                <usage1>ALLIANZ VERSICHERUNG ABBUCHUNG ERWEITERTE HAUSHALTVERSICHE</usage1>
+            </com.wurf.qifconvert.dto.hibiscus1.Hibiscus1>
+        </transactions>
+    </com.wurf.qifconvert.dto.Csv>
+    <com.wurf.qifconvert.dto.Csv>
+        <accountName>Visacard</accountName>
+        <header>Nummer;Buchungsdatum;Valutadatum;Waehrung;Betrag;Empfaengername;Bankleitzahl;Kontonummer;Referenz;Textschluessel;Kommentar;Kategorie;Verwendungszweck_1;Verwendungszweck_2;Verwendungszweck_3;Verwendungszweck_4;Verwendungszweck_5;Verwendungszweck_6;Verwendungszweck_7;Verwendungszweck_8;Verwendungszweck_9;Verwendungszweck_10;Verwendungszweck_11;Verwendungszweck_12;Verwendungszweck_13;Verwendungszweck_14
+        </header>
+        <transactions class="linked-list">
+            <com.wurf.qifconvert.dto.hibiscus1.Hibiscus1>
+                <bookingDate>26.11.2009</bookingDate>
+                <valutaDate>26.11.2009</valutaDate>
+                <amount>100,00</amount>
+                <payee>Ich</payee>
+                <category>Einkommen:Umbuchung</category>
+                <usage1>Einzahlung</usage1>
+            </com.wurf.qifconvert.dto.hibiscus1.Hibiscus1>
+            <com.wurf.qifconvert.dto.hibiscus1.Hibiscus1>
+                <bookingDate>17.12.2009</bookingDate>
+                <valutaDate>17.12.2009</valutaDate>
+                <amount>-29,90</amount>
+                <payee>Toshiba</payee>
+                <category>Technik</category>
+                <usage1>WWW.TOSHIBAWIN7UPGRADE.COVERSMOLD </usage1>
+            </com.wurf.qifconvert.dto.hibiscus1.Hibiscus1>
+        </transactions>
+    </com.wurf.qifconvert.dto.Csv>
+</list>
