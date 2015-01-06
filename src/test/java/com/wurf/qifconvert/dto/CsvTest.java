@@ -1,12 +1,13 @@
 package com.wurf.qifconvert.dto;
 
-import com.wurf.qifconvert.QifMapperTest;
-import com.wurf.qifconvert.dto.hibiscus1.Hibiscus1;
+import java.util.List;
+
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
-import java.util.List;
+import com.wurf.qifconvert.QifMapperTest;
+import com.wurf.qifconvert.dto.hibiscus1.Hibiscus1;
 
 public class CsvTest {
 
@@ -25,7 +26,7 @@ public class CsvTest {
 
     @Test
     public void testHeader() {
-        Csv<Hibiscus1> csv = new Csv<Hibiscus1>();
+        Csv<Hibiscus1> csv = new Csv<>();
         csv.addTransaction(transaction);
         Assert.assertTrue(csv.toString().startsWith(Hibiscus1.HEADER));
     }

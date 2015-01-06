@@ -1,15 +1,15 @@
 package com.wurf.qifconvert.util;
 
-import org.apache.commons.io.FileUtils;
-import org.apache.commons.io.IOUtils;
-import org.apache.commons.lang3.CharEncoding;
-
 import java.io.File;
 import java.io.IOException;
 import java.io.InputStream;
 import java.net.URL;
 import java.util.LinkedList;
 import java.util.List;
+
+import org.apache.commons.io.FileUtils;
+import org.apache.commons.io.IOUtils;
+import org.apache.commons.lang3.CharEncoding;
 
 public final class ResourceParseUtil {
 
@@ -40,13 +40,13 @@ public final class ResourceParseUtil {
         return Thread.currentThread().getContextClassLoader().getResource(resource);
     }
 
-    public static final List<List<String>> parseLines(final List<String> lines, final String delimiter) {
-        List<List<String>> result = new LinkedList<List<String>>();
-        List<String> list = new LinkedList<String>();
+    public static List<List<String>> parseLines(final List<String> lines, final String delimiter) {
+        List<List<String>> result = new LinkedList<>();
+        List<String> list = new LinkedList<>();
         for (String line : lines) {
             if(delimiter.equals(line)) {
                 if(!list.isEmpty()) {
-                    result.add(new LinkedList<String>(list));
+                    result.add(new LinkedList<>(list));
                     list.clear();
                 }
                 continue;
@@ -54,7 +54,7 @@ public final class ResourceParseUtil {
             list.add(line);
         }
         if(!list.isEmpty()) {
-            result.add(new LinkedList<String>(list));
+            result.add(new LinkedList<>(list));
         }
         return result;
     }

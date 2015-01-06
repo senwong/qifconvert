@@ -1,15 +1,16 @@
 package com.wurf.qifconvert;
 
-import com.wurf.qifconvert.dto.Csv;
-import com.wurf.qifconvert.dto.hibiscus1.Hibiscus1;
-import junit.framework.Assert;
+import java.io.File;
+import java.io.IOException;
+
 import org.apache.commons.io.FileUtils;
 import org.junit.After;
+import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
-import java.io.File;
-import java.io.IOException;
+import com.wurf.qifconvert.dto.Csv;
+import com.wurf.qifconvert.dto.hibiscus1.Hibiscus1;
 
 public class ApplicationTest {
 

@@ -1,15 +1,16 @@
 package com.wurf.qifconvert.util;
 
-import com.thoughtworks.xstream.XStream;
-import junit.framework.Assert;
+import java.io.IOException;
+import java.util.List;
+
 import org.custommonkey.xmlunit.DetailedDiff;
 import org.custommonkey.xmlunit.Diff;
 import org.custommonkey.xmlunit.XMLTestCase;
 import org.custommonkey.xmlunit.XMLUnit;
+import org.junit.Assert;
 import org.xml.sax.SAXException;
 
-import java.io.IOException;
-import java.util.List;
+import com.thoughtworks.xstream.XStream;
 
 public class XmlDiff {
 
